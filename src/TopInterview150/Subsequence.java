@@ -30,10 +30,10 @@ public class Subsequence {
 
     public static boolean isSubsequence(String s, String t) {
         int i = 0,j = 0;
-        int n=t.length();
-        int m=s.length();
-        char[] ss=s.toCharArray();
-        char[] tt=t.toCharArray();
+        int n = t.length();
+        int m = s.length();
+        char[] ss = s.toCharArray();
+        char[] tt = t.toCharArray();
 
         if (m < 1) return true;
 
